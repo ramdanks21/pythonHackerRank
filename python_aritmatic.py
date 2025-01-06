@@ -28,6 +28,7 @@ if __name__ == '__main__':
         # * 1 Apabila kita mengembalikan nilai dengan banyak operasi seperti di bawah kita tinggal satukan dan pisahkan dengan tanda { , }
         
         # TODO - return a + b, a - b, a * b akan menjadi sebuah tuple() apabila kita memanggilnya seperti:
-        #           - print(callFunction[0]) -> ini untuk koma pertama
-        #           - print(callFunction[1]) -> ini untuk koma kedua
-        #           - print(callFunction[2]) -> ini untuk koma ketiga
+        #           - print(callFunction[0]) -> ini untuk koma pertama 2 + 2 = 4 
+        #           - print(callFunction[1]) -> ini untuk koma kedua 2 - 2 = 0
+        #           - print(callFunction[2]) -> ini untuk koma ketiga 2 * 2 = 4 
+        #           - Mejadi tuple(4,0,4)
