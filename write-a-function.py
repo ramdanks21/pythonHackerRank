@@ -19,7 +19,9 @@ def is_leap(year):  # Fungsi untuk menentukan apakah suatu tahun adalah tahun ka
     # Langkah 3: Jika tidak habis dibagi 100, periksa apakah habis dibagi 4
     elif year % 4 == 0:  
         # Jika habis dibagi 4 tapi tidak habis dibagi 100, maka ini tahun kabisat
-        return True  
+        return True
+    else:
+        return False
 
     # Langkah 4: Jika tidak memenuhi semua kondisi di atas, maka bukan tahun kabisat
     # Secara implisit, kondisi ini akan mengembalikan False karena tidak ada return lain
