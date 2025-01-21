@@ -1,5 +1,10 @@
-""" 
-            TASK
-Deskripsi Masalah
-Kita diminta untuk menghitung berapa kali sebuah substring muncul dalam sebuah string yang diberikan. Pencarian substring dilakukan dari kiri ke kanan (urutan normal membaca), bukan dari kanan ke kiri. """
+a = int(input("Masukan Nomer Bilangan Genap : ")) 
+b = int(input("Masukan Nomer Bilangan Genap : ")) 
+c = int(input("Masukan Nomer Bilangan Genap : ")) 
+d = int(input("Masukan Nomer Bilangan Genap : "))
+y = a ** b
+z = c ** d
+result = y + z
+print(result)
 
+#2pangkat3+2pangkat3=8+8=16
