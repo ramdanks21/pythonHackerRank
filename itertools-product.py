@@ -5,16 +5,17 @@
 # Kita diberikan dua daftar bilangan bulat unik yang sudah terurut, yaitu daftar A dan B. Tugas kita adalah menghitung produk Kartesius dari kedua daftar tersebut.
 
 # Produk Kartesius
-# Produk Kartesius adalah semua kemungkinan pasangan elemen antara dua daftar, yaitu:
+# ? Produk Kartesius adalah semua kemungkinan pasangan elemen antara dua daftar, yaitu:
 
 # Input daftar A dan B
 A = [1,2,3]
 B = [4,5,6]
 
 # Hitung Produk Kartesius menggunakan for loop
-for a in A:
-    for b in B:
-            print(f"({a}, {b})", end=" ")
+for a in range(1,5):
+    for b in range(2,11):
+            countt = a + b
+            print(f"[{a}][{b}] = {countt}")
             
 
 
