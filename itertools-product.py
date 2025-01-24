@@ -8,8 +8,8 @@
 # Produk Kartesius adalah semua kemungkinan pasangan elemen antara dua daftar, yaitu:
 
 # Input daftar A dan B
-A = list(map(int, input("").split()))
-B = list(map(int, input("").split()))
+A = [1,2,3]
+B = [4,5,6]
 
 # Hitung Produk Kartesius menggunakan for loop
 for a in A:
@@ -28,5 +28,5 @@ for a in A:
 .split() → Memisahkan input berdasarkan spasi sehingga menghasilkan daftar string.
 map(int, ...) → Mengonversi setiap elemen string menjadi bilangan bulat.
 list(...) → Mengubah hasil konversi menjadi daftar bilangan bulat. 
-
+end=" " -> agar tulisan dcode ke samping bukan ke bawah
 """
