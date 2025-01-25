@@ -14,9 +14,8 @@ B = [4,5,6]
 # Hitung Produk Kartesius menggunakan for loop
 for a in range(1,5):
     for b in range(2,11):
-            for c in range(3,15):
-                countt = a + b
-                print(f"[{a}][{b}] = {countt}")
+            countt = a + b
+            print(f"[{a}][{b}] = {countt}")
             
 
 
